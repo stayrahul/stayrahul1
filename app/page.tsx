@@ -23,6 +23,8 @@ import DevStates from "@/components/DevStats";
 import ChatBot from "@/components/ChatBot";
 import { FloatingNav } from "@/components/ui/floating-nav";
 import { navItems } from "@/data";
+import GoogleAd from "@/components/GoogleAd";
+
 
 
 const MainPage = () => {
@@ -45,6 +47,7 @@ const MainPage = () => {
         <RecentProjects />
         <Achievements />
         <Gallery />
+        <GoogleAd />
         <DevicesSection />
         <Experience />
         <FunFacts />
